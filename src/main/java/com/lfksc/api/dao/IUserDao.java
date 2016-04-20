@@ -1,6 +1,6 @@
 package com.lfksc.api.dao;
 
-import cn.jpush.api.report.UsersResult.User;
+import com.lfksc.api.model.User;
 
 public interface IUserDao
 {
