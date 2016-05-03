@@ -10,14 +10,20 @@ import com.lfksc.api.service.IUserService;
 @Service("userService")
 public class UserServiceImpl implements IUserService
 {
-	@Resource(name = "userDao")
-	private IUserDao userDao;
 
 	@Override
-	public void saveUser(User user)
-	{
-		userDao.saveUser(user);
+	public String login(String loginName, String password, String clientId, String platform) {
+		
+		return null;
 	}
+//	@Resource(name = "userDao")
+//	private IUserDao userDao;
+//
+//	@Override
+//	public void saveUser(User user)
+//	{
+//		userDao.saveUser(user);
+//	}
 	
 	
 }
